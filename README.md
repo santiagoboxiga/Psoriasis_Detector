@@ -66,6 +66,8 @@ or
 3. **Run YOLOv8** detection on the cropped image.
 4. If a box of class `psoriasis` has confidence ≥ 70%, return `"psoriasis"`.
 
+## Demo
+![Psoriasis Detection Result](assets/filtered_result.png)
 ## Notes
 
 - Default frontend CORS is set to `http://localhost:3000`. Change in `detector_api.py` as needed.
