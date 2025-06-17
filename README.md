@@ -64,7 +64,7 @@ or
 1. **Preprocess** image using U²-Net to segment the skin area.
 2. **Crop** the image around the skin contour.
 3. **Run YOLOv8** detection on the cropped image.
-4. If a box of class `psoriasis` has confidence ≥ 70%, return `"psoriasis"`.
+4. If a box of class `psoriasis` has confidence ≥ 60%, return `"psoriasis"`.
 
 ## Demo
 ![Psoriasis Detector](assets/filtered_result.jpg)
