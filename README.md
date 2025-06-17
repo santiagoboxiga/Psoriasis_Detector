@@ -67,7 +67,7 @@ or
 4. If a box of class `psoriasis` has confidence ≥ 70%, return `"psoriasis"`.
 
 ## Demo
-![Psoriasis Detector](assets/filtered_result.png)
+![Psoriasis Detector](assets/filtered_result.jpg)
 ## Notes
 
 - Default frontend CORS is set to `http://localhost:3000`. Change in `detector_api.py` as needed.
